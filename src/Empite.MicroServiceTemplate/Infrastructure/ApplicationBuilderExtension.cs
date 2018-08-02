@@ -249,13 +249,6 @@ namespace Empite.MicroserviceTemplate.Infrastructure
                 });
                 options.DescribeAllEnumsAsStrings();
                 options.DocumentFilter<LowercaseDocumentFilter>();
-                //options.AddSecurityDefinition(JwtBearerDefaults.AuthenticationScheme, new ApiKeyScheme()
-                //{
-                //    Description = "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
-                //    Name = "Authorization",
-                //    In = "header",
-                //    Type = "apiKey"
-                //});
             });
 
             return services;
