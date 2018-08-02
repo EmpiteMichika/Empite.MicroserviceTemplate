@@ -177,7 +177,7 @@ namespace Empite.MicroserviceTemplate.Infrastructure
             else
             {
                 app.UseHsts();
-            }
+            } 
             var config = Configuration.GetSection(nameof(Settings)).Get<Settings>();
             
 
