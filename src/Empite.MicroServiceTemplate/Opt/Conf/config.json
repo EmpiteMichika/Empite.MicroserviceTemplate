@@ -1,0 +1,32 @@
+﻿{
+  "ConnectionStrings": {
+    "DefaultConnection": "server=127.0.0.1;database=dev-empitetemplate;user=root;password=tranjan;persistsecurityinfo=True;port=3306;SslMode=none;CharSet=utf8;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  },
+  "Settings": {
+    "AppId": "q6y201YwGcMqs3xRc5s6o6zBUSX5Q95eiE0DrPymqbZmrdvQWVo21uDjFnACap33",
+    "SecretKey": "VzbIvbsbulQPL32b3SvqKbIaNMh4Od8eXKaCzQXwWy06oCHiE7ZMu2jKaIWDn3bY",
+    "IdentityUrl": "http://localhost:5050/",
+    "IdentityAppId": "9424A2BB99C4EEEACAB2DB5A6FDA2",
+    "IdentityApiKey": "Cj4XaGAbPrjfaF9IokdYaVAwN3GNqFpr",
+    "ApiSettings": {
+      "Version": "v1",
+      "Description": "Tribechimp",
+      "Title": "Tribechimp API Documentation",
+      "Contact": "support@empite.com",
+      "Toc": ""
+    },
+    "HangFireConnectionSettings": {
+      "Server": "localhost",
+      "User": "root",
+      "Database": "empite-template-hangfire",
+      "Password": "tranjan",
+      "Port": "3306"
+    }
+    
+  }
+}
